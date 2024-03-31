@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    /* background-color: red; */
+    padding: 28px 80px;
+    
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+#nav h3{
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#nav h4{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#content{
+    margin-top: 60px;
+    padding: 40px 80px;
+}
+#content h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+#content h1{
+    font-size: 140px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 120px;
+    letter-spacing: -4px;
+    word-spacing: 4px;
+}
+#case{
+    margin-top: 100px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#case h4{
+    font-size: 28px;
+    font-weight: 400;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 120px;
+    background-color: black;
+}
+#projects{
+    margin-top: -28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    gap: 40px;
+}
+.elem{
+    width: 50%;
+    
+    
+}
+.elem-img{
+    background-color: #e2e7ed;
+    height: 600px;
+    width: 100%;
+    border-radius: 24px;
+    background-size:  cover;
+    background-position: center;
+}
+#img-1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/591px-Sketch_Logo.svg.png?20230303045010) ;
+}
+#img-2{
+    background-image: url(https://play-lh.googleusercontent.com/AlmIl24eJ2Wgd5DphCk2KkuJZgDIgdkJn3Ghz_SSiXBk3hRHHBvB5MVHTgEZM9alT2I=w2560-h1440-rw);
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i {
+    padding: 16px 28px;
+    font-size: 22px;
+    border-radius: 50px;
+    border: 2px solid black;
+    font-weight: 600;
+}
+.bottom i:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
